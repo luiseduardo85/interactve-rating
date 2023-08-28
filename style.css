@@ -1,0 +1,113 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 8%);
+}
+.card-rating{
+    width: 390px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 45px;
+    background-color: hsl(216, 12%, 23%);
+    margin: 15px;
+}
+.text{
+    margin: 10px;
+    padding: 5px;
+}
+.rating-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.grade-btn{
+    width: 50px;
+    height: 45px;
+    border-radius: 45px;
+    background-color: hsl(216, 12%, 23%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.grade-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+.btn-sub{
+    display: inline-block;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+.btn-sub:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.thanks-section{
+    display: none;
+    margin: 10px;
+    padding: 25px;
+    width: 390px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+}
+.thanks-section > img{
+    display: block;
+    margin: 5% 28%;
+}
+.selected{
+    display: block;
+    width: 70%;
+    padding: 5px 20px;
+    margin: 15px 35px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 23%);
+}
+.paragraph{
+    margin: 10px 30px;
+    text-align: center;
+    font-size: 15px;
+}
+h1{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    line-height: 1.5rem;
+    font-size: 15px;
+    font-weight: 400;
+}
